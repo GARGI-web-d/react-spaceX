@@ -1,0 +1,30 @@
+.countdown-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .countdown-content {
+    padding-top: 2.5rem;
+    margin: auto;
+  }
+  
+  .countdown-ticker {
+    display: flex;
+    flex-direction: row;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-size: 6rem;
+    letter-spacing: 0.12rem;
+    color: paleturquoise;
+    /* Center within the container */
+    justify-content: center;
+  }
+  
+  .picker {
+    margin: auto auto auto 1rem;
+    font-family: "Electrolize" !important;
+    letter-spacing: 0.35rem !important;
+    font-size: x-large !important;
+  }
